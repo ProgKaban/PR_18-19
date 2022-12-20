@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Дриблинг"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="421dp"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/img"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:text="Термин произошёл от английского dribble — «вести мяч». Игрока, ведущего мяч, называют дриблером. Дриблинг — зрелищный манёвр, во время которого игрок продвигается вперёд, обходя соперников; мяч ударяют о пол одной или двумя руками поочерёдно. Дриблинг помогает, если противник: «держит» или прикрывает игрока или пытается вынудить его совершить ошибку. Игрок за счёт ведения может выиграть время, перехватить передачу, пройти к кольцу, обмануть противника или осуществить продуманную комбинацию с коллегами по команде.
+Источник: https://sportyfi.ru/basketbol/pravila/elementi/"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

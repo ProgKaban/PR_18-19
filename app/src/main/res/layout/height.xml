@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:text="Правила баскетбола"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="424dp"
+            android:layout_height="288dp"
+            app:srcCompat="@drawable/dreamstime_xxl_107581919_scaled_1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:text="В баскетбол играют две команды. Обычно команда состоит из 12 человек, 5 из которых являются полевыми, а остальные считаются игроками на замену. Ведение мяча в баскетболе. Спортсмены, владеющие мячом, должны передвигаться по полю, ударяя им в пол. В противном случае будет засчитан «пронос мяча», а это нарушение правил в баскетболе. Случайное прикосновение к мячу отличной от руки частью тела не считается нарушением, в отличие от целенаправленной игры ногой или кулаком. Баскетбольный матч состоит из 4 периодов или таймов, но время каждого тайма (время игры) разнится в зависимости от баскетбольной ассоциации. Так, например, в NBA матч состоит из 4 таймов по 12 минут, а в FIBA каждый такой тайм длится 10 минут. Между периодами предусмотрены короткие перерывы, а между вторым и третьим периодом время перерыва увеличено."
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

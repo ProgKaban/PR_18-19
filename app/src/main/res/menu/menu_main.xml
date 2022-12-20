@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/m1"
+        android:title="История баскетбола"
+        android:visible="true" />
+    <item
+        android:id="@+id/m2"
+        android:title="Бросок" />
+    <item
+        android:id="@+id/m3"
+        android:title="Дриблинг"
+        android:visible="true" />
+    <item
+        android:id="@+id/m4"
+        android:title="Ведение"
+        android:visible="true" />
+    <item
+        android:id="@+id/m5"
+        android:title="Рост"
+        android:visible="true" />
+    <item
+        android:id="@+id/m6"
+        android:title="Олимпиада"
+        android:visible="true" />
+    <item
+        android:id="@+id/m7"
+        android:title="Команды"
+        android:visible="true" />
+
+</menu>
